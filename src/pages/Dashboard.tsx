@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useContract } from '../hooks/useContract';
 import { useCustomer } from '../hooks/useCustomer';
 import { useFamiliar } from '../hooks/useFamiliar';
@@ -239,4 +239,5 @@ export default function Dashboard() {
       </div>
     </div>
   );
+
 }
